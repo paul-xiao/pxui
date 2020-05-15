@@ -22,4 +22,6 @@ export default {
 </script>
 <style lang="stylus">
 //
+body
+ font-size: 16px
 </style>

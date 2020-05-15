@@ -1,11 +1,9 @@
 <template>
-  <button class="px-input">
-    <slot>{{text}}</slot>
-  </button>
+  <input type="text"/>
 </template>
 <script>
 export default {
-  name: 'PxButton',
+  name: 'PxInput',
   props: {
     text: {
       type: String,
